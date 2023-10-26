@@ -16,11 +16,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from lynkco device
-$(call inherit-product, device/motorola/lynkco/device.mk)
+# Inherit from zeekr device
+$(call inherit-product, device/motorola/zeekr/device.mk)
 
-PRODUCT_DEVICE := lynkco
-PRODUCT_NAME := twrp_lynkco
+PRODUCT_DEVICE := zeekr
+PRODUCT_NAME := twrp_zeekr
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola razr (2023)
 PRODUCT_MANUFACTURER := motorola
@@ -28,6 +28,6 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="lynkco_gu-user 13 T2TV33.45-83-2 b6410-dddbd9 release-keys"
+    PRIVATE_BUILD_DESC="zeekr_gu-user 13 T2TV33.45-83-2 b6410-dddbd9 release-keys"
 
-BUILD_FINGERPRINT := motorola/lynkco_gu/lynkco:13/T2TV33.45-83-2/b6410-dddbd9:user/release-keys
+BUILD_FINGERPRINT := motorola/zeekr_g/msi:13/T1TZ33M.3-62-45/fc8bb:user/release-keys

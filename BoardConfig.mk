@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/lynkco
+DEVICE_PATH := device/motorola/zeekr
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -50,8 +50,8 @@ TARGET_USES_REMOTEPROC := true
 TARGET_SCREEN_DENSITY := 400
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lynkco
-TARGET_RECOVERY_DEVICE_MODULES := libinit_lynkco
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_zeekr
+TARGET_RECOVERY_DEVICE_MODULES := libinit_zeekr
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
@@ -124,7 +124,7 @@ TW_USE_FSCRYPT_POLICY := 2
 TW_FIX_DECRYPTION_ON_DATA_MEDIA := true
 
 # TWRP Configuration
-TW_DEVICE_VERSION := lynkco
+TW_DEVICE_VERSION := zeekr
 TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_INCLUDE_REPACKTOOLS := true

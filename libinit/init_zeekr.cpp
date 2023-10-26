@@ -78,7 +78,7 @@ void load_device_properties(const std::string& description, const std::string& f
 
 void vendor_load_properties() {
     const std::string sku = GetProperty("ro.boot.hardware.sku", "");
-//    if (sku == "XT2323-2") {
-        load_device_properties("lynkco_gu-user 13 T2TV33.45-83-2 b6410-dddbd9", "motorola/lynkco_gu/lynkco:13/T2TV33.45-83-2/b6410-dddbd9:user/release-keys", "lynkco_g", "Motorola Razr (2023)");
+//    if (sku == "XT2321-2") {
+        load_device_properties("zeekr-user 12 T1TZ33.3-62-45 90eab", "motorola/zeekr/zeekr:12/T1TZ33.3-62-45/90eab:user/release-keys", "zeekr", "Motorola Razr 40 Ultra");
 //    }
 }

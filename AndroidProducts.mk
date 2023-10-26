@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_lynkco.mk
+    $(LOCAL_DIR)/twrp_zeekr.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_lynkco-user \
-    twrp_lynkco-userdebug \
-    twrp_lynkco-eng
+    twrp_zeekr-user \
+    twrp_zeekr-userdebug \
+    twrp_zeekr-eng
